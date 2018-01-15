@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.leksustv" name="LeksusTV" version="0.0.1" provider-name="Leksus">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Quick one liner about the add-on</summary>
+		<description lang="en">Full add-on description.</description>
+		<platform>all</platform>
+		<forum>http://www.noobsandnerds.com/support</forum>
+		<website>www.benolux.fr</website>
+		<news></news>
+		<genre>livetv,french,russian</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+
+<addon id="urban-fiesta" name="Urban Fiesta" version="0.0.3" provider-name="Leksus">
+	<extension point="xbmc.addon.repository" name="Urban Fiesta">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/LeksusIPTV/urban-fiesta/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/LeksusIPTV/urban-fiesta/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/LeksusIPTV/urban-fiesta/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Quick one liner about the repository</summary>
+		<description lang="en">Full repository description.</description>
+		<genre>documentary,kids,livetv,movies,music,news,religion,sports,tvshows,french,russian</genre>
+	</extension>
+</addon>
+</addons>
